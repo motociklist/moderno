@@ -80,3 +80,16 @@ body {
         font-size: 14px;
     }
 }
+
+.ongle-right {
+    position: relative;
+    padding-left: 15px;
+    &::before {
+        content: "\f105";
+        font-family: 'icomoon';
+        position: absolute;
+        left: 0;
+        color: $green;
+        font-size: 14px;
+    }
+}
